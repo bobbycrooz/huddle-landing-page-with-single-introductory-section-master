@@ -9,8 +9,52 @@
 @mixin main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
     color: #eee;
         
+}
+
+@mixin desktop-design{
+    &{
+        background-image: url('../images/bg-desktop.svg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: $primary-color;
+        height: 100vh;
+    }
+    .logo{
+        margin-left:150px;
+    }
+    .main {
+        flex-flow: row nowrap;
+        &__image{
+            margin-left: 150px;
+            width: 600px;
+            height: 400px;
+        }
+        &__blockquote{
+            width: 400px;
+            margin-left: 20px;
+            text-align: left;
+            &__head{
+                
+            }
+            &__text{
+                font-size: 15px;
+                line-height: 18px;
+            }
+
+        }
+
+    
+    }
+    .share{
+        float: right;
+        margin-right: 70px;
+        margin-top: 90px;
+    }
+   
+
 }
