@@ -1,0 +1,16 @@
+@mixin mobile-design {
+    background-image: url('../images/bg-mobile.svg');
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: $primary-color;
+}
+
+@mixin main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+        
+}
