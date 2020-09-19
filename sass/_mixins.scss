@@ -18,22 +18,25 @@
 @mixin desktop-design{
     &{
         background-image: url('../images/bg-desktop.svg');
-        background-position: center;
-        background-size: cover;
+        background-size: contain;
+        background-position: left;
         background-repeat: no-repeat;
         background-color: $primary-color;
         height: 100vh;
     }
     .logo{
-        margin-left:150px;
+        margin-top: 1rem;
+        margin-left:6rem;
+        width:11.2rem;
+        height: 7rem;
     }
     .main {
         flex-flow: row nowrap;
-        margin-top: 30px;
+        margin-top: -1.94rem;
         &__image{
-            margin-left: 150px;
-            width: 600px;
-            height: 400px;
+            margin-left: 6rem;
+            width: 37.5rem;
+            height: 25rem;
         }
         &__blockquote{
             width: 400px;
@@ -53,8 +56,8 @@
     }
     .share{
         float: right;
-        margin-right: 70px;
-        margin-top: 60px;
+        margin-right: 9rem;
+        margin-top: 3.75rem;
     }
    
 
