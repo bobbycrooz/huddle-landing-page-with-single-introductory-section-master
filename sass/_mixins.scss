@@ -29,6 +29,7 @@
     }
     .main {
         flex-flow: row nowrap;
+        margin-top: 30px;
         &__image{
             margin-left: 150px;
             width: 600px;
@@ -53,7 +54,7 @@
     .share{
         float: right;
         margin-right: 70px;
-        margin-top: 90px;
+        margin-top: 60px;
     }
    
 

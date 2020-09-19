@@ -26,6 +26,7 @@ fully implementing BEM convention
 
 .container{
     @include mobile-design ;
+    vertical-align: middle;
     width: 100%;
     height: 130vh;
     .logo{
@@ -35,6 +36,7 @@ fully implementing BEM convention
     }
     .main{
         @include main;
+        align-self: center;
         &__image{
            margin-top: 50px;
            width: 350px;
@@ -78,8 +80,8 @@ fully implementing BEM convention
     .share{
         display: flex;
         margin-top: 4.625rem;
-        margin-left: 165px;
-        width: 100%;
+        margin-left: 200px;
+        width: 110px;
         &__icon{
             border:1px solid #eee;
             border-radius: 50%;
